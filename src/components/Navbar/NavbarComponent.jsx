@@ -66,12 +66,12 @@ const NavbarComponent = () => {
               <Nav>
                 {isAuthenticated && (
                   <Nav.Link href={`/habitaciones/${user.id}`}>
-                    Habitaciones
+                    Habitacione
                   </Nav.Link>
                 )}
 
                 {!isAuthenticated && (
-                  <Nav.Link href={`/habitaciones/1`}>Habitaciones</Nav.Link>
+                  <Nav.Link href={`/habitaciones/1`}>Habitacione</Nav.Link>
                 )}
 
                 <Nav.Link href="/galeria">Galería</Nav.Link>
